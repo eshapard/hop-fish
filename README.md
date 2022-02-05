@@ -48,7 +48,7 @@ Finally, to hop to one of your hops, just use the command `hop <hopname>` and yo
 
 I've changed the original fish implementation of `jump` in the following ways:
 
-* Renamed `jump` to `hop` saving a letter's worth of typing and making it slightly easier to type on the dvorak layout.
+* Renamed `jump` to `hop` saving a letter's worth of typing and making it slightly easier to type on the [dvorak layout][dvorak].
 * Renamed associated `mark` and `unmark` to the more unixy and more obviously related `mkhop` and `rmhop`
 * Altered the completions file to use the $HOPPATH environment variable, instead of a hard-coded path
 * Set default path for 'hops' to .local/share/hop (personal preference to not litter the home dir with dot files)
@@ -94,3 +94,4 @@ See the fish documentation on [set_color][set-color] for color options.
 [fish-shell]:     https://fishshell.com
 [set-color]:      https://fishshell.com/docs/current/cmds/set_color.html
 [symbolic-links]: https://linuxhandbook.com/symbolic-link-linux/
+[dvorak]:         https://dvorak-keyboard.com/
