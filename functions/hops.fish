@@ -2,9 +2,9 @@ function hops
   if test (count $argv) -gt 0
     echo "Usage: hops"
   else
-    set hc (set_color 'green')
-    set ac (set_color 'brmagenta')
-    set lc (set_color 'yellow')
+    set hc (set_color bryellow)
+    set ac (set_color brred)
+    set lc (set_color f70)
     set -l file_list (command ls $HOPPATH)
     if test (count $file_list) -eq 0
       echo "No hops currently defined."

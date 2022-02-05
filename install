@@ -1,0 +1,5 @@
+#!/usr/bin/fish
+cp completions/hop.fish ~/.config/fish/completions/
+cp conf.d/hop.fish ~/.config/fish/conf.d/
+cp functions/*.fish ~/.config/fish/functions/
+echo "Hop-Fish Installed!"
