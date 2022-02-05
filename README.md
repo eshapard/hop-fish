@@ -48,11 +48,11 @@ Finally, to hop to one of your hops, just use the command `hop <hopname>` and yo
 
 I've changed the original fish implementation of `jump` in the following ways:
 
-* Renamed `jump` to `hop` saving a letter's worth of typing and making it slightly easier to type on the [dvorak layout][dvorak].
-* Renamed associated `mark` and `unmark` to the more unixy and more obviously related `mkhop` and `rmhop`
+* Renamed `jump` to `hop` saving a letter's worth of typing and making it slightly easier to type on the [Dvorak layout][dvorak].
+* Renamed associated `mark` and `unmark` functions to the more unixy and more obviously related `mkhop` and `rmhop`
 * Altered the completions file to use the $HOPPATH environment variable, instead of a hard-coded path
-* Set default path for 'hops' to .local/share/hop (personal preference to not litter the home dir with dot files)
-* Fixed `marks` (renamed to `hops`) so that it shows the true path of each hop instead of its symbolic path and added some goldfish colors 🐟️ 
+* Set default path for 'hops' to .local/share/hop (personal preference to not litter the home dir with *dot* files)
+* Fixed `marks` (renamed to `hops`) so that it shows the true path of each hop instead of its symbolic path and added some goldfish colors 🐠
 * Created an install script for use outside of [oh-my-fish][omf-link]
 
 ## Configuration ⚙️
