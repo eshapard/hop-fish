@@ -36,7 +36,7 @@ rm ~/.config/fish/functions/rmhop.fish
 
 The functions work by making symbolic links to directories and storing them in the `$HOPPATH` directory. If you're new to linux and don't know what [symbolic links][symbolic-links] are, then you should learn about them because they're very useful! But if you use the Fish shell, then odds are, you aren't new to linux and know all about them.
 
-To make a 'hop', navigate to the directory you'd like to be able to hop to quickly, and use the command `mkhop <hopname>` (replace *<hopname>* with a short memorable nickname). Or, you can create a hop from anywhere to any directory using the command `mkhop hopname path/to/target/dir`.
+To make a 'hop', navigate to the directory you'd like to be able to hop to quickly, and use the command `mkhop <hopname>` (replace `<hopname>` with a short memorable nickname). Or, you can create a hop from anywhere to any directory using the command `mkhop hopname path/to/target/dir`.
 
 To remove a hop, just use the command `rmhop <hopname>`
 
