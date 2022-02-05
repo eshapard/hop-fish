@@ -1,7 +1,5 @@
 ![][license-badge]
 
-<br>
-
 # 🐰+🐠 = Hop Fish
 
 A port of [Jeroen Janssens' "jump" utility][jump] to the fish shell. Forked from [oh-my-fish/plugin-jump][plugin-jump] and modified by eshapard.

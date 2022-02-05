@@ -5,7 +5,7 @@ function hop
     if test -d $HOPPATH/$argv[1] -a -L $HOPPATH/$argv[1]
       cd (readlink $HOPPATH/$argv[1])
     else
-      echo "No such mark: $argv[1]"
+      echo "No such hop: $argv[1]"
     end
   end
 end
