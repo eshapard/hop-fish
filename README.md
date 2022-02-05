@@ -81,12 +81,10 @@ See the fish documentation on [set_color][set-color] for color options.
 
 # License
 
-[MIT][mit] © [bpinto][author] et [al][contributors]
+[MIT][mit]
 
 
 [mit]:            http://opensource.org/licenses/MIT
-[author]:         http://github.com/bpinto
-[contributors]:   https://github.com/oh-my-fish/plugin-rbenv/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
 [jump]:           http://jeroenjanssens.com/2013/08/16/quickly-navigate-your-filesystem-from-the-command-line.html
